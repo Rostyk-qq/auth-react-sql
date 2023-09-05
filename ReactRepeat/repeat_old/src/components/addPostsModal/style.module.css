@@ -1,0 +1,33 @@
+.modal__area{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1112;
+    display: none;
+    z-index: 100;
+}
+.modal__card{
+    position: relative;
+    z-index: 100;
+    min-width: 40vw;
+    max-width: 40vw;
+    max-height: 60vh;
+    background-color: azure;
+    z-index: 200;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.form > *{
+    margin: 10px;
+}
+
+.isActive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

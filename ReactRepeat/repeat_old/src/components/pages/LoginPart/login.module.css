@@ -1,0 +1,33 @@
+.card{
+    width: 100vw;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.card__content{
+    max-width: 40vw;
+    max-height: 60vh;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+form h1{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+form label{
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    margin-right: 10px;
+    font-family: sans-serif;
+}
+
+form > *{
+    margin: 0px 0 10px;
+}

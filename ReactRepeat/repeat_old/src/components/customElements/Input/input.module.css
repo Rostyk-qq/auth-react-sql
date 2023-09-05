@@ -1,0 +1,7 @@
+.input{
+    outline: none;
+    border: 1px solid #111;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
